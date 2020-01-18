@@ -55,8 +55,14 @@ func statWork(title string) {
 
 	pagNum := getOnePageUrl(httpGet(imgUrl))
 	for _, v := range pagNum {
-		fmt.Printf("开始第%s", v[1])
-		pageUrl := "https://xgao5.com/album/59993/?page=" + v[1]
+		pageUrl := "https://xgao5.com/album/"
+		Num := num(httpGet(imgUrl))
+		for _, v := range Num {
+			pageUrl = "https://xgao5.com/album/" + v[1] + "/?page="
+		}
+		fmt.Printf("开始第%s\n", v[1])
+		pageUrl = pageUrl + v[1]
+		fmt.Println("完整url", pageUrl)
 		imgNum := regImg(httpGet(pageUrl))
 		for k, v := range imgNum {
 			go downloadImg(k, v[1], di, dirPath)
@@ -67,6 +73,13 @@ func statWork(title string) {
 		fmt.Println("单个网页里面的所有url下载完成")
 	}
 	fmt.Println("内循环完成")
+}
+
+func num(urlString string) (regResult [][]string) {
+	reg := "/album/slideshow/([0-9]*)\">"
+	r := regexp.MustCompile(reg)
+	regResult = r.FindAllStringSubmatch(urlString, -1)
+	return
 }
 
 func getOnePageUrl(urlString string) (regResult [][]string) {
