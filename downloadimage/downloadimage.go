@@ -12,6 +12,7 @@ import (
 func downloadImg(k int, v string, di chan int, dirPath string) {
 
 	oneImgUrl := "https://xgao5.com/media/photos/" + v + ".jpg"
+	fmt.Println(oneImgUrl)
 	imgData := httpGet(oneImgUrl)
 	fmt.Println("获取数据")
 	fileName := dirPath + "\\" + v + ".jpg"
@@ -54,6 +55,7 @@ func statWork(title string) {
 
 	pagNum := getOnePageUrl(httpGet(imgUrl))
 	for _, v := range pagNum {
+		fmt.Printf("开始第%s", v[1])
 		pageUrl := "https://xgao5.com/album/59993/?page=" + v[1]
 		imgNum := regImg(httpGet(pageUrl))
 		for k, v := range imgNum {
@@ -68,7 +70,7 @@ func statWork(title string) {
 }
 
 func getOnePageUrl(urlString string) (regResult [][]string) {
-	reg := "page=([0-9])\">"
+	reg := "\">([0-9])</"
 	r := regexp.MustCompile(reg)
 	regResult = r.FindAllStringSubmatch(urlString, -1)
 	return
