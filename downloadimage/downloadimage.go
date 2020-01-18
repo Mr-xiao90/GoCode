@@ -15,7 +15,7 @@ func downloadImg(k int, v string, di chan int, dirPath string) {
 	fmt.Println(oneImgUrl)
 	imgData := httpGet(oneImgUrl)
 	fmt.Println("获取数据")
-	fileName := dirPath + "\\" + v + ".jpg"
+	fileName := dirPath + "/" + v + ".jpg"
 	fName, err1 := os.Create(fileName)
 	if err1 != nil {
 		fmt.Println("文件创建错误", err1)
@@ -49,7 +49,7 @@ func statWork(title string) {
 			fmt.Println("获取当前路径失败：", err)
 			return
 		}
-		dirPath = path + "\\" + v[1]
+		dirPath = path + "/" + v[1]
 	}
 	fmt.Println("imgPath", dirPath)
 
