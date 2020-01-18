@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be7e5eb5-7de2-4faf-a9aa-fdf6260a1b22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="ProjectId" id="1VkjeCBW87QMosHNljXFHeRBLsY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ask.go.tool.to.install.GoImportsTaskConsumer" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build downloadimage.go">
+    <configuration name="go build downloadimage.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/downloadimage/downloadimage.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build helloworld.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/helloworld/helloworld.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build downloadimage.go" />
+        <item itemvalue="Go Build.go build test.go" />
+        <item itemvalue="Go Build.go build helloworld.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="73" key="#File_Watchers" timestamp="1579242572592">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="73" key="#File_Watchers/0.0.1536.824@0.0.1536.824" timestamp="1579242572592" />
+    <state x="346" y="88" key="#GOPATH" timestamp="1577804598044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="346" y="88" key="#GOPATH/0.0.1536.824@0.0.1536.824" timestamp="1577804598044" />
+    <state x="459" y="71" key="#go_build_helloworld.go" timestamp="1577804425146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="459" y="71" key="#go_build_helloworld.go/0.0.1536.824@0.0.1536.824" timestamp="1577804425146" />
+    <state x="404" y="204" key="EditFileWatcherDialog" timestamp="1579242774011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="404" y="204" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1579242774011" />
+    <state x="534" y="183" key="FileChooserDialogImpl" timestamp="1577804452472">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="534" y="183" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577804452472" />
+    <state width="1022" height="195" key="GridCell.Tab.0.bottom" timestamp="1579334317811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1022" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579334317811" />
+    <state width="1022" height="195" key="GridCell.Tab.0.center" timestamp="1579334317811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1022" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579334317811" />
+    <state width="1022" height="195" key="GridCell.Tab.0.left" timestamp="1579334317811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1022" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579334317811" />
+    <state width="1022" height="195" key="GridCell.Tab.0.right" timestamp="1579334317811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1022" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579334317811" />
+    <state x="248" y="71" key="SettingsEditor" timestamp="1579242779766">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="248" y="71" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579242779766" />
+    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1579277766029">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579277766029" />
+  </component>
+</project>
