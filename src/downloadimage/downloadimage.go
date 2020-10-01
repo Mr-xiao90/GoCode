@@ -10,7 +10,7 @@ import (
 )
 
 func downloadImg(k int, v string, di chan int, dirPath string) {
-	oneImgUrl := "https://xgao5.com/media/photos/" + v + ".jpg"
+	oneImgUrl := "https://xcao10.com/media/photos/" + v + ".jpg"
 	imgData := httpGet(oneImgUrl)
 	fileName := dirPath + "/" + v + ".jpg"
 	fName, err1 := os.Create(fileName)
@@ -30,7 +30,7 @@ func downloadImg(k int, v string, di chan int, dirPath string) {
 func statWork(title string) {
 	var dirPath string
 	di := make(chan int, 100)
-	imgUrl := "https://xgao5.com/album/" + title
+	imgUrl := "https://xcao10.com/album/" + title
 	//fmt.Println("拿到url=", imgUrl)
 	dirName := getFileName(httpGet(imgUrl))
 	for _, v := range dirName {
@@ -52,10 +52,10 @@ func statWork(title string) {
 
 	pagNum := getOnePageUrl(httpGet(imgUrl))
 	for _, v := range pagNum {
-		pageUrl := "https://xgao5.com/album/"
+		pageUrl := "https://xcao10.com/album/"
 		Num := num(httpGet(imgUrl))
 		for _, v := range Num {
-			pageUrl = "https://xgao5.com/album/" + v[1] + "/?page="
+			pageUrl = "https://xcao10.com/album/" + v[1] + "/?page="
 		}
 		//fmt.Printf("开始第%s\n", v[1])
 		pageUrl = pageUrl + v[1]
@@ -129,7 +129,8 @@ func httpGet(url string) (result string) {
 func main() {
 	i := 1
 	for {
-		url := "https://xgao5.com/albums?page=" + strconv.Itoa(i)
+		//https://xcao10.com/albums?page=1
+		url := "https://xcao10.com/albums?page=" + strconv.Itoa(i)
 		title := regTitle(httpGet(url)) //获取单个相册的名字
 		for _, v := range title {
 			fmt.Println("main里面的=", v[1])
